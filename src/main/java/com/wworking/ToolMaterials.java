@@ -10,13 +10,13 @@ import java.util.function.Supplier;
 
 public enum ToolMaterials implements ToolMaterial {
 
-    BASICWOOD(MiningLevels.WOOD, 59, 2,2,15, () -> Ingredient.ofItems(Items.OAK_PLANKS)),
-    FLIMSYWOOD(MiningLevels.WOOD,25,2,2,15, () -> Ingredient.ofItems(Items.OAK_PLANKS)),
-    STRONGWOOD(MiningLevels.WOOD, 75,2,2,15,() -> Ingredient.ofItems(Items.OAK_PLANKS)),
+    BASICWOOD(MiningLevels.WOOD, 59, 1,2,15, () -> Ingredient.ofItems(Items.OAK_PLANKS)),
+    FLIMSYWOOD(MiningLevels.WOOD,25,0.7f,2,15, () -> Ingredient.ofItems(Items.OAK_PLANKS)),
+    STRONGWOOD(MiningLevels.WOOD, 75,1.3f,2,15,() -> Ingredient.ofItems(Items.OAK_PLANKS)),
     //Stone Materials
-    BASICSTONE(MiningLevels.STONE, 132, 1,3,5, () -> Ingredient.ofItems(Items.STONE)),
-    FLIMSYSTONE(MiningLevels.STONE,100,1,3,5, () -> Ingredient.ofItems(Items.STONE)),
-    STRONGSTONE(MiningLevels.STONE, 164,1,3,5,() -> Ingredient.ofItems(Items.STONE)),
+    BASICSTONE(MiningLevels.STONE, 132, 2,3,5, () -> Ingredient.ofItems(Items.STONE)),
+    FLIMSYSTONE(MiningLevels.STONE,100,1.7f,3,5, () -> Ingredient.ofItems(Items.STONE)),
+    STRONGSTONE(MiningLevels.STONE, 164,2.3f,3,5,() -> Ingredient.ofItems(Items.STONE)),
     //Iron Materials
     BASICIRON(MiningLevels.IRON,250,6,4,14,() -> Ingredient.ofItems(Items.IRON_INGOT)),
     FLIMSYIRON(MiningLevels.IRON,200,6,4,14,() -> Ingredient.ofItems(Items.IRON_INGOT)),
