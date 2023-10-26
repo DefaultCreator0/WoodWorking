@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "N": {
+      "item": "woodworking:wedge"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    " SN",
+    " S "
+  ],
+  "result": {
+    "item": "minecraft:stone_hoe"
+  },
+  "show_notification": true
+}

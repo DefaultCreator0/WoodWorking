@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "F": {
+      "item": "woodworking:dried_plant_fiber"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " F",
+    " S "
+  ],
+  "result": {
+    "item": "minecraft:iron_axe"
+  },
+  "show_notification": true
+}

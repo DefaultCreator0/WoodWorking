@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "dried_plant_fiber",
+  "ingredient": {
+    "item": "woodworking:plant_fiber"
+  },
+  "result": "woodworking:dried_plant_fiber"
+}

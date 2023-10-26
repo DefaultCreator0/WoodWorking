@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "woodworking:wedge"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#SN",
+    " S "
+  ],
+  "result": {
+    "item": "minecraft:iron_axe"
+  },
+  "show_notification": true
+}

@@ -1,7 +1,12 @@
 {
-
   "item.woodworking.quality_stick" : "Quality Stick",
   "item.woodworking.tool_handle" : "Tool Handle",
-  "item.woodworking.low_quality_stick" : "Low Quality Stick"
-
+  "item.woodworking.low_quality_stick" : "Low Quality Stick",
+  "item.woodworking.nail": "Nail",
+  "item.woodworking.box_of_nails": "Box of Nails",
+  "item.woodworking.hammer": "Hammer",
+  "item.woodworking.sickle" : "Sickle",
+  "item.woodworking.wedge" : "Wedge",
+  "item.woodworking.plant_fiber": "Planet Fiber",
+  "item.woodworking.dried_plant_fiber": "Dried Plant Fiber"
 }

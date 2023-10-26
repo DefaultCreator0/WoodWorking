@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "tools",
+  "ingredients": [
+    {
+      "item": "woodworking:box_of_nails"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "woodworking:nail"
+  }
+}

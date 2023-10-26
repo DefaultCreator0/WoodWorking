@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "H": {
+      "item" : "woodworking:hammer"
+    }
+  },
+  "pattern": [
+    " #H",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "item": "woodworking:wedge"
+  },
+  "show_notification": true
+}
